@@ -3,7 +3,7 @@ using System.Net;
 public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, TraceWriter log)
 {
     log.Info("C# HTTP trigger function processed a request.");
-    log.Info("test staging");
+    log.Info("test staging 2222");
 
     // parse query parameter
     string name = req.GetQueryNameValuePairs()
