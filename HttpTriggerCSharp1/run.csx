@@ -4,6 +4,7 @@ public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, TraceW
 {
     log.Info("C# HTTP trigger function processed a request.");
     log.Info("test staging 2222");
+    log.Info("test staging 2222 agauin");
 
     // parse query parameter
     string name = req.GetQueryNameValuePairs()
